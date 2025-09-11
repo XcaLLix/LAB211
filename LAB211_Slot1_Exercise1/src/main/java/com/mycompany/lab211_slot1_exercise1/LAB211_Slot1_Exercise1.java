@@ -17,8 +17,7 @@ public class LAB211_Slot1_Exercise1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter your content: ");
-        String input = sc.nextLine();
-        Count count = new Count(input);
+        Count count = new Count(sc.nextLine());
 
         System.out.println(count.wordCount());
         System.out.println(count.charCount());
